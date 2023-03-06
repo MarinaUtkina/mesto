@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header page__section">
+      <img class="header__logo" src="./images/header__logo.svg" alt="Логотип">
+    </header>
+    <main class="content">
+      <section class="profile page__section">
+        <img class="profile__avatar" src="./images/profile__avatar.png" alt="Аватарка пользователя">
+        <div class="profile__info">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <h2 class="profile__job">Исследователь океана</h2>
+          <button class="profile__edit-button"></button>
+        </div>
+        <button class="profile__add-button"></button>
+      </section>
+      <section class="elements page__section">
+        <ul class="element">
+          <li class="element__item">
+            <img class="element__image" src="./images/element__altai.jpg" alt="Изображение Алтая">
+            <div class="element__label">
+              <h2 class="element__title">Карачаевск</h2>
+              <button class="element__button-like"></button>
+            </div>
+          </li>
+          <li class="element__item">
+            <img class="element__image" src="./images/element__kaluzskaya-oblast'.jpg" alt="Изображение Урала">
+            <div class="element__label">
+              <h2 class="element__title">Калужская область</h2>
+              <button class="element__button-like"></button>
+            </div>
+          </li>
+          <!--<li class="element__item">
+            <img class="element__image" src="./images/element__kamchatka.jpg" alt="Изображение Урала">
+            <div class="element__label">
+              <h2 class="element__title">Камчатка</h2>
+              <button class="element__button-like"></button>
+            </div>
+          </li>-->
+          <li class="element__item">
+            <img class="element__image" src="./images/element__kizhi.jpg" alt="Изображение Урала">
+            <div class="element__label">
+              <h2 class="element__title">Кижи</h2>
+              <button class="element__button-like"></button>
+            </div>
+          </li>
+          <li class="element__item">
+            <img class="element__image" src="./images/element__moskva.jpg" alt="Изображение Урала">
+            <div class="element__label">
+              <h2 class="element__title">Москва</h2>
+              <button class="element__button-like"></button>
+            </div>
+          </li>
+          <!--<li class="element__item">
+            <img class="element__image" src="./images/element__reka-kucherla.jpg" alt="Изображение Урала">
+            <div class="element__label">
+              <h2 class="element__title">Река Кучерла</h2>
+              <button class="element__button-like"></button>
+            </div>
+          </li>-->
+          <li class="element__item">
+            <img class="element__image" src="./images/element__ruza.jpg" alt="Изображение Урала">
+            <div class="element__label">
+              <h2 class="element__title">Руза</h2>
+              <button class="element__button-like"></button>
+            </div>
+          </li>
+          <li class="element__item">
+            <img class="element__image" src="./images/element__ryazan'.jpg" alt="Изображение Урала">
+            <div class="element__label">
+              <h2 class="element__title">Рязань</h2>
+              <button class="element__button-like"></button>
+            </div>
+          </li>
+          <!--<li class="element__item">
+            <img class="element__image" src="./images/element__zelenograd.jpg" alt="Изображение Урала">
+            <div class="element__label">
+              <h2 class="element__title">Зеленоград</h2>
+              <button class="element__button-like"></button>
+            </div>
+          </li>-->
+        </ul>
+      </section>
+    </main>
+    <div class="popup">
+      <form action="" method="get" class="popup__container">
+        <div class="popup__indent">
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <input type="text" value="Жак-Ив Кусто" class="popup__name">
+          <input type="text" value="Исследователь океана" class="popup__job">
+          <input type="submit" value="Сохранить" class="popup__button-submit">
+        </div>
+        <button class="popup__close-icon"></button>
+      </form>
+    </div>
+    <footer class="footer page__section">
+      <p class="footer__copyright">&copy; 2023 Mesto Russia</p>
+    </footer>
+  </div>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>

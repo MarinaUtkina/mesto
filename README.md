@@ -20,4 +20,4 @@
 
 ### Ссылка на проект
 
-GitHub Pages: ["Место"](#)
+GitHub Pages: ["Место"](https://marinautkina.github.io/mesto/)

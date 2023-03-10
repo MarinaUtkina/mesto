@@ -1,0 +1,15 @@
+.elements {
+  max-width: 880px;
+}
+
+@media screen and (max-width: 919px) {
+  .elements {
+    max-width: 581px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .elements {
+    max-width: 282px;
+  }
+}

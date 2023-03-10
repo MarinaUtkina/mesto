@@ -1,0 +1,29 @@
+.profile {
+  max-width: 880px;
+  padding: 40px 0 51px;
+  display: grid;
+  grid-template-columns: 120px 1fr 150px;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 919px) {
+  .profile {
+    max-width: 879px;
+    width: calc(100% - 2*19px);
+    gap: calc(20px + (30 - 20)*((100vw - 600px)/(919 - 600)));
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .profile {
+    max-width: 599px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: calc(42px + (40 - 42)*((100vw - 320px)/(599 - 320))) 0 calc(36px + (51 - 36)*((100vw - 320px)/(599 - 320)));
+  }
+}

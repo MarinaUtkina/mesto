@@ -1,0 +1,10 @@
+.hover-btn {
+  cursor: url(../../images/hover-btn-cursor.svg), auto;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.hover-btn:hover {
+  opacity: 0.6;
+  transition: opacity 0.1s ease;
+}

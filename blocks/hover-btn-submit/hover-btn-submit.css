@@ -1,0 +1,10 @@
+.hover-btn-submit {
+  cursor: url(../../images/hover-btn-cursor.svg), auto;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+
+.hover-btn-submit:hover {
+  opacity: 0.8;
+  transition: opacity 0.1s linear;
+}

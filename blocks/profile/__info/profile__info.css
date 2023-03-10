@@ -1,0 +1,15 @@
+.profile__info {
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content) 1fr;
+  grid-template-rows: minmax(min-content, max-content);
+  grid-template-areas:
+  "profile__name profile__edit-button"
+  "profile__job .";
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 599px) {
+  .profile__info {
+    column-gap: 0;
+  }
+}

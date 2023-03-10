@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
     <title>Mesto</title>
 </head>
@@ -19,9 +18,9 @@
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
           <h2 class="profile__job">Исследователь океана</h2>
-          <button class="profile__edit-button"></button>
+          <button class="hover-btn profile__edit-button"></button>
         </div>
-        <button class="profile__add-button"></button>
+        <button class="hover-btn profile__add-button"></button>
       </section>
       <section class="elements page__section">
         <ul class="element">
@@ -29,56 +28,56 @@
             <img class="element__image" src="./images/element__altai.jpg" alt="Изображение Алтая">
             <div class="element__label">
               <h2 class="element__title">Алтай</h2>
-              <button class="element__button-like"></button>
+              <button class="hover-btn element__button-like"></button>
             </div>
           </li>
           <li class="element__item">
             <img class="element__image" src="./images/element__kaluzskaya-oblast'.jpg" alt="Вид сверху на Калужскую область">
             <div class="element__label">
               <h2 class="element__title">Калужская область</h2>
-              <button class="element__button-like"></button>
+              <button class="hover-btn element__button-like"></button>
             </div>
           </li>
           <li class="element__item">
             <img class="element__image" src="./images/element__kizhi.jpg" alt="Изображение Кижи">
             <div class="element__label">
               <h2 class="element__title">Кижи</h2>
-              <button class="element__button-like"></button>
+              <button class="hover-btn element__button-like"></button>
             </div>
           </li>
           <li class="element__item">
             <img class="element__image" src="./images/element__moskva.jpg" alt="Фото Собора Василия Блаженного">
             <div class="element__label">
               <h2 class="element__title">Москва</h2>
-              <button class="element__button-like"></button>
+              <button class="hover-btn element__button-like"></button>
             </div>
           </li>
           <li class="element__item">
             <img class="element__image" src="./images/element__ruza.jpg" alt="Вид сверху на окрестности Рузы">
             <div class="element__label">
               <h2 class="element__title">Руза</h2>
-              <button class="element__button-like"></button>
+              <button class="hover-btn element__button-like"></button>
             </div>
           </li>
           <li class="element__item">
             <img class="element__image" src="./images/element__ryazan'.jpg" alt="Изображение Рязани">
             <div class="element__label">
               <h2 class="element__title">Рязань</h2>
-              <button class="element__button-like"></button>
+              <button class="hover-btn element__button-like"></button>
             </div>
           </li>
         </ul>
       </section>
     </main>
     <div class="popup">
-      <form class="popup__container">
+      <form action="#" method="get" class="popup__container">
         <div class="popup__indent">
           <h2 class="popup__title">Редактировать профиль</h2>
           <input type="text" value="Жак-Ив Кусто" class="popup__name">
           <input type="text" value="Исследователь океана" class="popup__job">
-          <input type="submit" value="Сохранить" class="popup__button-submit">
+          <input type="submit" value="Сохранить" class="hover-btn-submit popup__button-submit">
         </div>
-        <button class="popup__close-icon"></button>
+        <button class="hover-btn popup__close-icon"></button>
       </form>
     </div>
     <footer class="footer page__section">

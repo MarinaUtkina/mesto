@@ -1,0 +1,17 @@
+.footer {
+  max-width: 880px;
+  padding: 67px 0 60px;
+}
+
+@media screen and (max-width: 919px) {
+  .footer {
+    max-width: 879px;
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .footer {
+    padding: calc(48px + (67 - 48)*((100vw - 320px)/(599 - 320))) 0 calc(36px + (60 - 36)*((100vw - 320px)/(599 - 320)));
+  }
+}

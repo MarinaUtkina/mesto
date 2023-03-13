@@ -22,7 +22,6 @@
     max-width: 599px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 0;
     padding: calc(42px + (40 - 42)*((100vw - 320px)/(599 - 320))) 0 calc(36px + (51 - 36)*((100vw - 320px)/(599 - 320)));
   }

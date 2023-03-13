@@ -9,6 +9,15 @@
   .header {
     max-width: 879px;
     width: calc(100% - 2*27px);
-    padding: calc(28px + (45 - 28)*((100vw - 320px)/(919 - 320))) 0 calc(31.6px + (41 - 31.6)*((100vw - 320px)/(919 - 320)));
+    padding: calc(28px + (45 - 28)*((100vw - 600px)/(919 - 600))) 0 calc(31.6px + (41 - 31.6)*((100vw - 600px)/(919 - 600)));
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .header {
+    max-width: 599px;
+    min-width: 320px;
+    width: 100%;
+    padding: 28px 27px 31.6px;
   }
 }

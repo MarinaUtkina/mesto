@@ -6,7 +6,10 @@
   line-height: 1.57;
   font-weight: 400;
   color: #FFFFFF;
-  word-break: break-word;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 508px;
 }
 
 @media screen and (max-width: 919px) {
@@ -17,7 +20,7 @@
 
 @media screen and (max-width: 599px) {
   .profile__job {
-    padding: 8px 0 0px;
+    padding: 8px 0 0 26px;
     font-size: 14px;
     line-height: 1.21;
     text-align: center;

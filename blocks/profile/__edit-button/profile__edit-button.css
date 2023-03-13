@@ -11,10 +11,10 @@
 
 @media screen and (max-width: 599px) {
   .profile__edit-button {
-    width: calc(18px + (24 - 18)*((100vw - 320px)/(599 - 320)));
-    height: calc(18px + (24 - 18)*((100vw - 320px)/(599 - 320)));
-    transform: translate(20px, -8px);
+    width: 18px;
+    height: 18px;
     align-self: end;
     background-size: 7.5px 7.5px;
+    transform: translateY(-7px);
   }
 }
